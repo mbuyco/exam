@@ -13,17 +13,12 @@ $ composer install
 $ npm install
 ``` 
 
-3) Migrate DB schemas
+3) Migrate DB schemas and seed
 ```bash
-$ php artisan migrate
+$ php artisan migrate:fresh --seed
 ```
 
-4) Seed exam data
-```bash
-$ php artisan db:seed
-```
-
-5) Run server!
+4) Run server!
 ```bash
 $ docker-compose up -d && php artisan serve
 ```
