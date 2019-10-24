@@ -1,0 +1,5 @@
+type Exam {
+  id: ID!
+  name: String!
+  description: String
+}
