@@ -25,6 +25,7 @@ php artisan db:seed
 
 5) Run server!
 ```
+docker-compose up -d && \
 php artisan serve
 ```
 
