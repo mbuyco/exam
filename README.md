@@ -28,4 +28,4 @@ php artisan db:seed
 php artisan serve
 ```
 
-**NOTE** You can also use the GraphQL playground via `http://localhost:8000/graphql-playground`
+**NOTE:** You can also use the GraphQL playground via `http://localhost:8000/graphql-playground`
